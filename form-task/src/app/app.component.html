@@ -1,0 +1,27 @@
+<ng2-slim-loading-bar color="blue"></ng2-slim-loading-bar>
+
+<nav class="navbar navbar-expand-sm bg-light">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a routerLink="user-form" class="nav-link" routerLinkActive="active">
+          Submit User Details
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="user-template-form" class="nav-link" routerLinkActive="active">
+          Submit User Template Details
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="user-details" class="nav-link" routerLinkActive="active">
+          User Details
+        </a>
+      </li> 
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
